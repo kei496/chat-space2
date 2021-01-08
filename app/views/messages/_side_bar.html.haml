@@ -4,9 +4,9 @@
       %h3.LeftHeader__userName
         ユーザー名
       %ul.LeftHeader__iconList
-        %li.LeftHeder__icon
-          = link_to '#' do
-            = icon('far','edit')
+        %li.LeftHeader__icon
+          =link_to '#' do
+            =icon('fas','edit')
         %li.LeftHeader__icon
           =link_to '#' do
             =icon('fas','cog')
@@ -14,3 +14,14 @@
 
   .GroupList
     .Group
+      = link_to '#' do
+        .Group__name
+          グループ名
+        .Group__message
+          メッセージはまだありません
+    .Group
+      = link_to '#' do
+        .Group__name
+          グループ名
+        .Group__message
+          メッセージはまだありません
