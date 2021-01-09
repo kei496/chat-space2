@@ -76,7 +76,7 @@
   height: 100px;
   padding: 0 40px;
   border-bottom: solid 1px #eee;
-  &__group__Name{
+  &__groupName{
     color:#333333;
     font-size: 20px;
     margin-top: 35px;
@@ -104,7 +104,7 @@
 
 
 .MessageField{
-  height: calc(100vh - 100px - 90px);
+  height: calc(100vh - 190px);
   background-color: #fafafa;
   box-sizing: border-box;
   padding: 35px 40px 0;
