@@ -19,10 +19,4 @@
           .Group__name
             = group.name
           .Group__message
-            メッセージはまだありません
-      .Group
-        = link_to '#' do
-          .Group__name
-            グループ名
-          .Group__message
-            メッセージはまだありません
+            = group.show_last_message
